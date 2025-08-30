@@ -1,4 +1,6 @@
-@import '~bpk-mixins';
+@import "~bpk-tokens/tokens/base.default.scss";
+@import "~bpk-mixins/index";
+@import "~bpk-mixins";
 
 @mixin container {
   max-width: $bpk-breakpoint-desktop;
